@@ -6,6 +6,7 @@ import DrawerToggledButton from '../SideDrawer/DrawerToggledButton.js'
 function Navbar () {
     return(
         <header className={style.toolBar}>
+
             <nav className={style.toolBarNav}>
                 <div>
                     <DrawerToggledButton />

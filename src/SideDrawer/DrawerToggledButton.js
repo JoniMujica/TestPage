@@ -1,9 +1,9 @@
 import React from 'react';
-import buttonStyle from './style.module.scss'
+import buttonStyle from './DrawerToggledButton.module.scss';
 
 
 const DrawerToggledButton = props => (
-    <button className={buttonStyle.ToggleButtonLine}>
+    <button className={buttonStyle.ToggleButton}>
         <div className={buttonStyle.ToggleButtonLine}/>
         <div className={buttonStyle.ToggleButtonLine}/>
         <div className={buttonStyle.ToggleButtonLine}/>
